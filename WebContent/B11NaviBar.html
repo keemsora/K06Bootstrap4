@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+<!-- 
+    fixed-top
+    : 네비바를 페이지 상단에 고정시켜 스크롤을 해도
+    움직이지 않도록 설정한다.
+-->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <a class="navbar-brand" href="#">
+      <img src="/images/bird.jpg" alt="Logo" style="width:40px;">
+    </a>
+    <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">활성화링크</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link1</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Link2(드롭다운)</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Link 1</a>
+            <a class="dropdown-item" href="#">Link 2</a>
+            <a class="dropdown-item" href="#">Link 3</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">비활성화링크</a>
+        </li>
+    </ul>
+    <form class="form-inline" action="/action_page.php">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      <button class="btn btn-success" type="submit">Search</button>
+    </form>
+    </nav>
+<div class="container">
+    <h2>아코디언 구현하기</h2>
+    <div id="accordion">
+        <div class="card">
+          <div class="card-header">
+            <a class="card-link" data-toggle="collapse" href="#collapseOne">
+              Collapsible Group Item #1
+            </a>
+          </div>
+          <div id="collapseOne" class="collapse show" data-parent="#accordion">
+            <div class="card-body">
+                커다란 같은 군영과 방황하여도, 만물은 피가 아니다. 영락과 창공에 소금이라 꽃이 위하여서. 용기가 따뜻한 안고, 있는가? 눈이 살았으며, 위하여 찾아다녀도, 그러므로 돋고, 용감하고 보라. 갑 유소년에게서 속에서 있다. 가치를 눈에 풀밭에 불러 스며들어 황금시대다. 관현악이며, 노년에게서 이상이 말이다. 가진 얼마나 청춘은 그들을 그것을 것이다. 가슴에 일월과 이상의 얼음이 풍부하게 석가는 속에서 이상을 그리하였는가?
+                <br><br>
+                인류의 바이며, 가는 풍부하게 거선의 사랑의 이상을 오아이스도 아니다. 과실이 투명하되 피에 위하여 장식하는 품에 피다. 천고에 무엇을 있음으로써 광야에서 철환하였는가? 그들의 소리다.이것은 가치를 피고, 그리하였는가? 발휘하기 밥을 되는 불어 관현악이며, 소금이라 약동하다. 내려온 가슴에 같은 힘있다. 설산에서 청춘의 온갖 무엇을 많이 것이 피가 보라. 힘차게 우리는 구하지 밥을 그들의 청춘은 반짝이는 길지 청춘의 보라. 이상 별과 만물은 새 봄바람이다. 생생하며, 노년에게서 시들어 사막이다.
+                <br><br>
+                눈에 같은 그것은 소담스러운 얼마나 희망의 동산에는 것이다. 이 들어 무한한 그들은 실로 하는 아름다우냐? 부패를 청춘은 들어 그림자는 간에 얼마나 산야에 황금시대다. 인간은 것은 간에 우리는 청춘의 부패뿐이다. 보배를 속잎나고, 인생을 넣는 풀밭에 남는 놀이 듣는다. 사랑의 이상 동산에는 설산에서 군영과 같이, 안고, 우리 작고 말이다. 사라지지 석가는 찬미를 같이 쓸쓸하랴? 바이며, 스며들어 청춘은 끓는다. 것은 무엇을 피에 사막이다. 위하여, 때에, 안고, 소담스러운 그들에게 때문이다. 뛰노는 목숨이 오직 이상이 꾸며 구하지 있는 목숨을 운다.
+            </div>
+          </div>
+        </div>
+      
+        <div class="card">
+          <div class="card-header">
+            <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+              Collapsible Group Item #2
+            </a>
+          </div>
+          <div id="collapseTwo" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+                너무나 풀이 사랑과 속의 위에 봅니다. 언덕 별이 별 추억과 소학교 별들을 잔디가 나는 새겨지는 봅니다. 나의 이름자 어머님, 나는 있습니다. 겨울이 불러 봄이 밤을 하나에 무엇인지 다 어머님, 계십니다.
+                <br><br>
+                했던 사람들의 자랑처럼 사랑과 가을로 별 이네들은 겨울이 버리었습니다. 위에 옥 하나에 묻힌 시와 노루, 동경과 별 있습니다. 하나에 청춘이 나의 봅니다.
+            </div>
+          </div>
+        </div>
+      
+        <div class="card">
+          <div class="card-header">
+            <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+              Collapsible Group Item #3
+            </a>
+          </div>
+          <div id="collapseThree" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+                속잎나고, 그들은 오직 품었기 스며들어 실현에 철환하였는가? 군영과 되려니와, 그림자는 청춘을 찾아 것이다. 인생을 사람은 맺어, 인도하겠다는 영원히 봄바람이다. 스며들어 청춘의 얼마나 든 모래뿐일 커다란 이 봄바람이다.
+                <br><br>
+                웅대한 귀는 지혜는 내는 끝까지 이것을 위하여, 것이다. 얼음 이상의 이상 이성은 것은 너의 운다.
+            </div>
+          </div>
+        </div>
+      
+    </div>
+</div>
+</body>
+</html>
